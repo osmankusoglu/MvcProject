@@ -51,10 +51,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IAboutDal.cs" />
     <Compile Include="Abstract\ICategoryDal.cs" />
+    <Compile Include="Abstract\IContactDal.cs" />
+    <Compile Include="Abstract\IContentDal.cs" />
+    <Compile Include="Abstract\IHeadingDal.cs" />
     <Compile Include="Abstract\IRepository.cs" />
+    <Compile Include="Abstract\IWriterDal.cs" />
     <Compile Include="Concreate\Context.cs" />
     <Compile Include="Concreate\Repositories\CategoryRepository.cs" />
+    <Compile Include="Concreate\Repositories\WriterRepository.cs" />
     <Compile Include="Migrations\202411221248038_mig1.cs" />
     <Compile Include="Migrations\202411221248038_mig1.Designer.cs">
       <DependentUpon>202411221248038_mig1.cs</DependentUpon>
